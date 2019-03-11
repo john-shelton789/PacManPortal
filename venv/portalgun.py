@@ -50,6 +50,10 @@ class RedPortalBullet(Sprite):
         collision = pygame.sprite.spritecollideany(self, walls)
         if collision:
             redportal.activated = True
+            # Play gun sound
+            portal_open_sound = pygame.mixer.Sound("sound/portal_open.wav")
+            portal_open_sound.set_volume(0.5)
+            portal_open_sound.play()
             if self.direction == "up":
                 redportal.rect.centerx = collision.rect.centerx
                 redportal.rect.centery = collision.rect.centery + 32
@@ -122,6 +126,10 @@ class BluePortalBullet(Sprite):
         collision = pygame.sprite.spritecollideany(self, walls)
         if collision:
             blueportal.activated = True
+            # Play gun sound
+            portal_open_sound = pygame.mixer.Sound("sound/portal_open.wav")
+            portal_open_sound.set_volume(0.5)
+            portal_open_sound.play()
             if self.direction == "up":
                 blueportal.rect.centerx = collision.rect.centerx
                 blueportal.rect.centery = collision.rect.centery + 32
@@ -163,10 +171,6 @@ class RedPortal(Sprite):
         self.activated = False
 
 
-        # Play laser sound effect
-        # self.bullet_sound = pygame.mixer.Sound("sound/bullet.wav")
-        # self.bullet_sound.set_volume(0.1)
-        # self.bullet_sound.play()
 
     def update(self, walls):
 
@@ -196,7 +200,7 @@ class BluePortal(Sprite):
         self.activated = False
 
 
-        # Play laser sound effect
+        # Play portal sound effect
         # self.bullet_sound = pygame.mixer.Sound("sound/bullet.wav")
         # self.bullet_sound.set_volume(0.1)
         # self.bullet_sound.play()

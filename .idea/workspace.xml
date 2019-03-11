@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c018b094-1e28-4a4a-ae93-d11cc8e7b119" name="Default Changelist" comment="" />
+    <list default="true" id="c018b094-1e28-4a4a-ae93-d11cc8e7b119" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/gamefunctions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/gamefunctions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/high_scores.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/high_scores.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/portalgun.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/portalgun.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/settings.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +20,19 @@
         <entry file="file://$PROJECT_DIR$/venv/PacManPortal.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="475">
-              <caret line="79" column="4" lean-forward="true" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
+              <caret line="79" column="4" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/gamefunctions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4044">
+              <caret line="315" lean-forward="true" selection-start-line="315" selection-end-line="315" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -23,22 +41,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/venv/gamefunctions.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="539" column="51" selection-start-line="539" selection-start-column="51" selection-end-line="539" selection-end-column="51" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            <state relative-caret-position="170">
+              <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -47,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/venv/death.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
-              <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+              <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -79,8 +85,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/maze.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="43" column="28" lean-forward="true" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+            <state relative-caret-position="731">
+              <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -89,10 +95,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/PacMan.py">
+        <entry file="file://$PROJECT_DIR$/venv/portalgun.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+            <state relative-caret-position="-85">
+              <caret line="52" column="28" lean-forward="true" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -104,7 +110,7 @@
         <entry file="file://$PROJECT_DIR$/venv/scoreboard.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="245">
-              <caret line="18" column="67" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="67" />
+              <caret line="18" column="67" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="67" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -116,7 +122,7 @@
         <entry file="file://$PROJECT_DIR$/venv/startscreen.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="234">
-              <caret line="451" lean-forward="true" selection-start-line="451" selection-end-line="451" />
+              <caret line="451" selection-start-line="451" selection-end-line="451" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -139,13 +145,15 @@
       <find>music</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/venv/spritesheet.py" />
         <option value="$PROJECT_DIR$/venv/soreboard.py" />
         <option value="$PROJECT_DIR$/venv/game_stats.py" />
-        <option value="$PROJECT_DIR$/venv/portalgun.py" />
         <option value="$PROJECT_DIR$/venv/startscreen.py" />
         <option value="$PROJECT_DIR$/venv/button.py" />
         <option value="$PROJECT_DIR$/venv/maze.py" />
@@ -153,10 +161,11 @@
         <option value="$PROJECT_DIR$/venv/death.py" />
         <option value="$PROJECT_DIR$/venv/scoreboard.py" />
         <option value="$PROJECT_DIR$/venv/PacManPortal.py" />
-        <option value="$PROJECT_DIR$/venv/settings.py" />
         <option value="$PROJECT_DIR$/venv/PacMan.py" />
         <option value="$PROJECT_DIR$/venv/ghost.py" />
         <option value="$PROJECT_DIR$/venv/gamefunctions.py" />
+        <option value="$PROJECT_DIR$/venv/portalgun.py" />
+        <option value="$PROJECT_DIR$/venv/settings.py" />
       </list>
     </option>
   </component>
@@ -164,6 +173,9 @@
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -263,7 +275,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09799789" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -318,16 +329,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/portalgun.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="194" column="34" lean-forward="true" selection-start-line="194" selection-start-column="34" selection-end-line="194" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/game_stats.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -342,27 +343,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/button.py">
+    <entry file="file://$PROJECT_DIR$/venv/PacMan.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/maze.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="43" column="28" lean-forward="true" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+        <state relative-caret-position="364">
+          <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/PacMan.py">
+    <entry file="file://$PROJECT_DIR$/venv/startscreen.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+        <state relative-caret-position="234">
+          <caret line="451" selection-start-line="451" selection-end-line="451" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/scoreboard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="18" column="67" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/PacManPortal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="79" column="4" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/death.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -379,47 +403,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/startscreen.py">
+    <entry file="file://$PROJECT_DIR$/venv/button.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="451" lean-forward="true" selection-start-line="451" selection-end-line="451" />
+        <state relative-caret-position="221">
+          <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/maze.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/settings.py">
+    <entry file="file://$PROJECT_DIR$/venv/portalgun.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/death.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/scoreboard.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="18" column="67" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="67" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/PacManPortal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="79" column="4" lean-forward="true" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
+        <state relative-caret-position="-85">
+          <caret line="52" column="28" lean-forward="true" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -428,11 +432,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/gamefunctions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="539" column="51" selection-start-line="539" selection-start-column="51" selection-end-line="539" selection-end-column="51" />
+        <state relative-caret-position="4044">
+          <caret line="315" lean-forward="true" selection-start-line="315" selection-end-line="315" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
         </state>
       </provider>
     </entry>

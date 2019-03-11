@@ -142,7 +142,7 @@ def check_pacman_point_collisions(ai_settings, screen, stats, sb, walls, points,
         sb.prep_score()
         check_high_score(stats = stats, sb = sb)
 
-        # Play death sound
+        # Play fruit sound
         fruit_sound = pygame.mixer.Sound("sound/pacman_eatfruit.wav")
         fruit_sound.set_volume(0.5)
         fruit_sound.play()
@@ -165,7 +165,10 @@ def check_pacman_portal_collisions(ai_settings, screen, player, redportal, bluep
         player.rect.centery = blueportal.rect.centery
         redportal.activated = False
         blueportal.activated = False
-
+        # Play portal sound
+        portal_sound = pygame.mixer.Sound("sound/portal_transport.wav")
+        portal_sound.set_volume(0.5)
+        portal_sound.play()
         inky.rect.x = inky.x * 32 + 4
         inky.rect.y = inky.y * 32 + 4
         pinky.rect.x = pinky.x * 32 + 4
@@ -180,10 +183,16 @@ def check_pacman_portal_collisions(ai_settings, screen, player, redportal, bluep
 
     bluecollide = pygame.sprite.collide_rect(player, blueportal)
     if bluecollide and redportal.activated == True and blueportal.activated == True and redportal.rect.centerx < 900 and redportal.rect.centery < 900:
+
         player.rect.centerx = redportal.rect.centerx
         player.rect.centery = redportal.rect.centery
         blueportal.activated = False
         redportal.activated = False
+        # Play fruit sound
+        portal_sound = pygame.mixer.Sound("sound/portal_transport.wav")
+        portal_sound.set_volume(0.5)
+        portal_sound.play()
+
         inky.rect.x = inky.x * 32 + 4
         inky.rect.y = inky.y * 32 + 4
         pinky.rect.x = pinky.x * 32 + 4
@@ -289,6 +298,10 @@ def fire_red_portal(ai_settings, screen, player, redportalbullets):
     if len(redportalbullets) < 1:
         new_bullet = RedPortalBullet(ai_settings = ai_settings, screen = screen, player = player)
         redportalbullets.add(new_bullet)
+        # Play gun sound
+        portal_fire_sound = pygame.mixer.Sound("sound/portal_fire.wav")
+        portal_fire_sound.set_volume(0.5)
+        portal_fire_sound.play()
 
 def fire_blue_portal(ai_settings, screen, player, blueportalbullets):
     """Fire a bullet if limit not reached yet."""
@@ -296,6 +309,10 @@ def fire_blue_portal(ai_settings, screen, player, blueportalbullets):
     if len(blueportalbullets) < 1:
         new_bullet = BluePortalBullet(ai_settings = ai_settings, screen = screen, player = player)
         blueportalbullets.add(new_bullet)
+        # Play gun sound
+        portal_fire_sound = pygame.mixer.Sound("sound/portal_fire.wav")
+        portal_fire_sound.set_volume(0.5)
+        portal_fire_sound.play()
 
 def check_play_button(ai_settings, screen, stats, sb, play_button, player, maze, walls, points, pills, blinky, inky, pinky, clyde, redportal, blueportal, mouse_x, mouse_y):
     """Start a new game when the player clicks play"""

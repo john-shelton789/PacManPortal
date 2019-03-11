@@ -7,7 +7,7 @@ class Settings():
         self.bg_color = (0, 0, 0)
 
         #set the number of lives
-        self.number_lives = 1
+        self.number_lives = 3
         
         self.ghosts_eaten = 0
 
