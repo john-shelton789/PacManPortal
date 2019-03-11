@@ -122,11 +122,11 @@ def check_pacman_point_collisions(ai_settings, screen, stats, sb, walls, points,
             inky.mode = "running"
             inky.rect.x = inky.x * 32 + 4
             inky.rect.y = inky.y * 32 + 4
-        if pinky.mode != "Returning":
+        if pinky.mode != "returning":
             pinky.mode = "running"
             pinky.rect.x = pinky.x * 32 + 4
             pinky.rect.y = pinky.y * 32 + 4
-        if clyde.mode != "Returning":
+        if clyde.mode != "returning":
             clyde.mode = "running"
             clyde.rect.x = clyde.x * 32 + 4
             clyde.rect.y = clyde.y * 32 + 4
@@ -226,7 +226,10 @@ def check_pacman_ghost_collisions(ai_settings, screen, stats, sb, walls, points,
             #if all ghosts have been eaten, reset the counter
             if ai_settings.ghosts_eaten == 4:
                 ai_settings.ghosts_eaten = 0
-
+            # Play eating sound
+            eatghost_sound = pygame.mixer.Sound("sound/pacman_eatghost.wav")
+            eatghost_sound.set_volume(0.5)
+            eatghost_sound.play()
             # set blinky mode to returning and give points to player
     if inkycollide:
         if inky.mode == "chasing" or inky.mode == "scatter":
@@ -241,9 +244,14 @@ def check_pacman_ghost_collisions(ai_settings, screen, stats, sb, walls, points,
             stats.score += 100 * (2 ** ai_settings.ghosts_eaten)
             sb.prep_score()
 
+
             # if all ghosts have been eaten, reset the counter
             if ai_settings.ghosts_eaten == 4:
                 ai_settings.ghosts_eaten = 0
+            # Play eating sound
+            eatghost_sound = pygame.mixer.Sound("sound/pacman_eatghost.wav")
+            eatghost_sound.set_volume(0.5)
+            eatghost_sound.play()
 
             # set inky mode to returning and give points to player
 
@@ -263,6 +271,10 @@ def check_pacman_ghost_collisions(ai_settings, screen, stats, sb, walls, points,
             # if all ghosts have been eaten, reset the counter
             if ai_settings.ghosts_eaten == 4:
                 ai_settings.ghosts_eaten = 0
+            # Play eating sound
+            eatghost_sound = pygame.mixer.Sound("sound/pacman_eatghost.wav")
+            eatghost_sound.set_volume(0.5)
+            eatghost_sound.play()
 
             # set pinky mode to returning and give points to player
 
@@ -282,6 +294,10 @@ def check_pacman_ghost_collisions(ai_settings, screen, stats, sb, walls, points,
             # if all ghosts have been eaten, reset the counter
             if ai_settings.ghosts_eaten == 4:
                 ai_settings.ghosts_eaten = 0
+            # Play eating sound
+            eatghost_sound = pygame.mixer.Sound("sound/pacman_eatghost.wav")
+            eatghost_sound.set_volume(0.5)
+            eatghost_sound.play()
 
             # set clyde mode to returning and give points to player
 
